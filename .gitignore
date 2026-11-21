@@ -1,0 +1,24 @@
+# Virtual environments (your private copy of Python packages, rebuilt with pip install)
+.venv/
+venv/
+
+# Python caches (generated automatically when code runs)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Secrets: never commit these. Commit a .env.example with fake values instead.
+.env
+.env.*
+!.env.example
+
+# Editor / OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
